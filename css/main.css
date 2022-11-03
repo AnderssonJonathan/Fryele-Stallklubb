@@ -101,7 +101,11 @@
 }
 
 .kontakt {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
+    flex-wrap: wrap;
+    height: 250px;
 }
 
 .kontakt table, td, th {
@@ -118,6 +122,20 @@
 
 .kontakt h4 {
     margin: 20px 0px 10px 0px;
+}
+
+#message {
+    margin-bottom: 10px;
+}
+
+#send {
+    display: block;
+   
+}
+
+#text {
+    width: 800px;
+    height: 200px;
 }
 
 .adress p {
